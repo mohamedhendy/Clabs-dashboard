@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Data picker-->
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <!-- Bootstrap v4.5.x  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- font-awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <!-- progress bar -->
+    <link rel="stylesheet" href="./css/progress.css" />
+    
+    <!-- custom style  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- responsive  -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+    
+    <title>Project</title>
+    <!-- Mani project title -->
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg px-0">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.svg" alt=""
+          /></a>
+
+          <!-- Main Logo-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="custom-bars-icon"></span>
+          </button>
+          <!-- toggle nav button -->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2 active" href="./renew.html">Renewal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="./index.html">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 " href="./Tickets.html"
+                  >Tickets</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Help</a>
+              </li>
+            </ul>
+            <!-- navigation links-->
+            <form class="form-inline my-2 my-lg-0">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li class="d-inline-block mr-2 lyl">
+                  <span class="help"></span>
+                </li>
+                <li class="d-inline-block mr-2">
+                  <div class="dropdown .dropdown2">
+                    <button
+                      class="btn dropdown-toggle dropdown-toggle2 text-left"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span class="notification"></span>
+                    </button>
+                    <div
+                      class="dropdown-menu dropdown-menu-2"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item text-white" href="#"
+                        ><span></span>notification</a
+                      >
+                      <a class="dropdown-item text-white" href="#"
+                        ><span></span>notification</a
+                      >
+                      <a class="dropdown-item text-white" href="#"
+                        ><span></span>notification</a
+                      >
+                    </div>
+                    <!-- Notification menu -->
+                  </div>
+                </li>
+                <li class="d-inline-block">
+                  <div class="dropdown">
+                    <button
+                      class="btn dropdown-toggle text-left shd-label"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span class="d-inline-block"
+                        ><img
+                          class="user-pic"
+                          src="./images/home-page/user.png"
+                          alt=""
+                      /></span>
+                      <!-- User picture -->
+                      <span class="user-info d-inline-block">
+                        <span class="user-title d-block">
+                          Expired date
+                        </span>
+                        <span class="user-date d-block link-color">
+                          April 12, 2020
+                        </span>
+                        <!-- Date -->
+                      </span>
+                    </button>
+                    <!-- User info box -->
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item logout-l" href="#"
+                        ><span><img src="./images/logout.png" alt="" /></span
+                        >Logout</a
+                      >
+                    </div>
+                    <!-- Dropdown menu buttons-->
+                  </div>
+                  <!-- Dropdown menu -->
+                </li>
+              </ul>
+            </form>
+            <!-- Form -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End header-->
+    <section class="main-content">
+      <div class="renew-page">
+        <div class="container dash-renewal-cards">
+          
+          
+        </div>
+      </div>
+      <!-- Container -->
+    </section>
+    <!-- Main Body Layout Content-->
+    <footer>
+      <div class="container">
+        <div class="row w-100 m-0 p-0">
+          <div class="col-md-6">
+            <ul class="list-unstyled social-footer-links">
+              <li class="d-inline-block">
+                <a href=""><span class="instagram"></span></a>
+              </li>
+              <li class="d-inline-block">
+                <a href=""><span class="twitter"></span></a>
+              </li>
+              <li class="d-inline-block">
+                <a href=""><span class="email"></span></a>
+              </li>
+            </ul>
+            <!--social icon  -->
+          </div>
+          <div class="col-md-6">
+            <div class="text-right terms">
+              <span class="mx-2"><a href="">Terms & Conditions</a></span>
+              <span class="mx-2"><a href="">Privacy Policy</a></span>
+            </div>
+            <!-- Terms and policy -->
+          </div>
+        </div>
+        <!-- Row -->
+      </div>
+      <!-- Container -->
+    </footer>
+    <!-- Footer-->
+
+    <!-- Modal ==========================*********************=========================*********************  -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="ModalRenew"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-content">
+              <img class="img-dialg w-100" src="./images/success.png" alt="" />
+              <div class="container">
+                <div class="dia-co">
+                  <div class="text-center mt-5">
+                    <img class="mt-5" src="./images/logo-d.svg" alt="" />
+                  </div>
+                  <h5
+                    style="font-size: 15px; font-size: 22px; margin: 14px 0;"
+                    class="text-center text-white"
+                  >
+                    Add Extra Month
+                  </h5>
+
+                  <div class="container">
+                    <div class="form-group text-left">
+                      <label class="ml-0 text-white" for="lic-name"
+                        >Amount of month extra</label
+                      >
+                      <select
+                        class="mx-auto main-input position-relative form-control w-100 text-white"
+                        name=""
+                        id=""
+                      >
+                        <option value="">1 Month</option>
+                        <option value="">2 Month</option>
+                        <option value="">3 Month</option>
+                      </select>
+                    </div>
+                    <div class="swap-cap">
+                      <div class="position-relative mb-2">
+                        <label class="my-import text-white" id="import"
+                          ><span class="ml-4"
+                            >Pay with default Credit Card</span
+                          >
+                          <input
+                            class="express"
+                            type="radio"
+                            checked="checked"
+                            name="radio-renew"
+                          />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <div class="credit-card">
+                        <div class="text-center">
+                          <h6 class="second-color">
+                            <span class="mr-3"
+                              ><img src="./images/credit-card.png" alt=""
+                            /></span>
+                            XXXX - XXXX - XXXX - 3132
+                          </h6>
+                          <span class="deactivated-btn d-block mb-3"></span>
+                        </div>
+                      </div>
+                      <div class="position-relative mb-3">
+                        <label
+                          class="importManually text-white"
+                          id="importManually"
+                          ><span class="ml-4">Pay with new Credit Card</span>
+                          <input
+                            class="custom"
+                            type="radio"
+                            name="radio-renew"
+                            custom-form="false"
+                          />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="new-card dia-co manually d-none">
+                      
+                      <div class="form-group text-left">
+                        <label class="ml-0 text-white" for="lic-name"
+                          >Card Number</label
+                        >
+                        <input
+                          class="main-input position-relative form-control w-100"
+                          type="number" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==16) return false;"
+                          placeholder="Card number"
+                        />
+                      </div>
+                      <div class="container m-0 p-0">
+                        <div class="row p-0 m-0">
+                          <div class="col-6 pl-0 form-group text-left">
+                            <label class="ml-0 text-white" for="lic-name"
+                              >Card Expire</label
+                            >
+                            <input   class="main-input position-relative form-control w-100" 
+                            type="text" maxlength="5"
+                              placeholder="MM/YY">
+                          </div>
+                          <div class="col-6 pr-0 form-group text-left">
+                            <label class="ml-0 text-white" for="lic-name"
+                              >CVV/CVC</label
+                            >
+                            <input
+                              class="main-input position-relative form-control w-100"
+                              type="number" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==4) return false;"
+                              placeholder="XXX"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center mt-3">
+                      <button
+                        class="global-btn"
+                        data-toggle="modal"
+                        data-target="#exampleModalsuccessful"
+                        data-dismiss="modal"
+                      >
+                        Pay $20
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="contactUserForm"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered"
+        style="max-width: 400px; margin: auto;"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-white p-3">
+            <div class="container">
+              <form action="">
+                <div class="form-group">
+                  <label for="" class="link-desc">Subject</label>
+                  <input
+                    placeholder="your subject"
+                    type="text"
+                    class="text-white main-input position-relative form-control w-100"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="" class="link-desc">Message</label>
+                  <textarea
+                    class="text-white main-input position-relative form-control w-100"
+                    name=""
+                    cols="30"
+                    rows="5"
+                    placeholder="your message"
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="" class="link-desc">Select API</label>
+                  <select name="" class="text-white main-input position-relative form-control w-100" >
+                    <option value="">Supreme</option>
+                    <option value="">Supreme</option>
+                    <option value="">Supreme</option>
+                    <option value="">Supreme</option>
+                    <option value="">Supreme</option>
+                    <option value="">Supreme</option>
+                  </select>
+                  </div>
+                <span class="d-flex align-items-center justify-content-center">
+                  <span class="mr-2"
+                    ><button class="enable-h">Resolve</button></span
+                  >
+                  <!-- Enable button-->
+                  <span class="active"
+                    ><button class="disable-h" data-dismiss="modal">
+                      Close
+                    </button></span
+                  >
+                  <!-- Disabled button-->
+                </span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pay-extra d-none">
+      <div class="index-content dash-renew mb-3 p-4">
+        <div class="row w-100 p-0 m-0">
+          <div class="col-lg-6 col-md-8">
+            <div class="align-sm">
+              <span class="main-des">
+                <span class="mx-2"
+                  ><img class="clabs-brand-img" src="./images/foot_looker.png" alt=""
+                /></span>
+                <!-- Logo Image -->
+                <span class="clabs-brand-name  text-white font-weight-bold"
+                  >Foot Locker Key</span> <span class="text-white ml-1"> Key</span>
+              </span>
+              <span class="price_yellow"><span>$</span> <span class="price-remaining">10</span></span>
+              <!-- Price -->
+            </div>
+            <!-- brand -->
+            <div class="card-info d-flex align-items-end">
+              <div class="cart-txt mr-3 mt-5 text-white">
+                <h6 class="mb-3">Card Number</h6>
+                <h5 class="card-number">
+                  <span class="d-flex align-items-center">
+                    <img
+                      class="mr-3"
+                      src="./images/credit-card.png"
+                      alt=""
+                    />
+                    <span class="card-key">XXXX - XXXX - XXXX - 3132</span>
+                    
+                  </span>
+                  <!-- Card number -->
+                </h5>
+              </div>
+              <div class="card-btn">
+                <button class="link-color">Change Card</button>
+                <!-- Button -->
+              </div>
+              <!-- Card button -->
+            </div>
+          </div>
+          <!-- Col-lg-6-->
+          <div class="col-lg-6 col-md-4">
+            <div
+              class="d-flex flex-column align-items-between justify-content-between h-100"
+            >
+              <div class="renew-btn">
+                <div class="date-remain">
+                  <span class="date-remain-val">10</span> Days remaining
+                </div>
+                <div class="mx-3">
+                  <button class="pause">Pause Renewal</button>
+                  <!-- button -->
+                </div>
+                <div>
+                  <button
+                    class="extra"
+                    data-toggle="modal"
+                    data-target="#ModalRenew"
+                  >
+                    Add Extra Months
+                  </button>
+                  <!-- button -->
+                </div>
+              </div>
+              <div class="need">
+                <span
+                  ><span class="link-desc n-more">Need more cookies?</span>
+                  <a
+                    href=""
+                    class="link-color c-us"
+                    data-toggle="modal"
+                    data-target="#contactUserForm"
+                    >Please contact us.</a
+                  ></span
+                >
+                <!-- Contact us-->
+              </div>
+            </div>
+          </div>
+          <!-- Col-md-6-->
+        </div>
+        <!-- Row -->
+      </div>
+    </div>
+    <div class="pay-extra-none d-none">
+      <div class="index-content dash-renew mb-3 p-4 ov-fn">
+        <div class="overlay">
+          <h4 class="text-white d-block">Unavailable</h4> <!-- case-->
+          <h6 class="d-block">
+            <a href=""
+            class="link-color c-us"
+            data-toggle="modal"
+            data-target="#contactUserForm"
+              ><i class="far fa-envelope"></i> Contact us if interested</a
+            > <!-- Contact us-->
+          </h6>
+        </div>
+        <div class="row w-100 p-0 m-0">
+          <div class="col-lg-6 col-md-8">
+            <div class="align-sm">
+              <span class="main-des">
+                <span class="mx-2"
+                  ><img class="clabs-brand-img" src="./images/nike.png" alt=""
+                /></span>
+                <span class="text-white clabs-brand-name font-weight-bold">Nike</span> <!-- brand name-->
+              </span>
+
+            </div>
+            <div class="card-info d-flex align-items-end">
+              <div class="cart-txt mr-3 mt-5 text-white hid-sm">
+                <h6 class="mb-3">Card Number</h6> <!-- card number -->
+                <h5 class="card-number">
+                  <span class="d-flex align-items-center">
+                    <img
+                      class="mr-3"
+                      src="./images/credit-card.png"
+                      alt=""
+                    />
+                    N/A
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4">
+            <div class="d-flex flex-column align-items-between justify-content-between h-100">
+              <div class="renew-btn"></div>
+              <div class="need">
+                <span class="hid-sm">
+                  <span class="link-desc n-more">Need more cookies?</span>
+                  <a
+                    href=""
+                    class="link-color c-us"
+                    data-toggle="modal"
+                    data-target="#contactUserForm"
+                  >
+                    Please contact us.</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/renew_page.js"></script>
+  </body>
+</html>

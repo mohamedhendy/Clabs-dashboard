@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap v4.5.x  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- font-awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <!-- progress bar -->
+    <link rel="stylesheet" href="./css/progress.css" />
+    <!-- custom style  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- responsive  -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <title>Project</title>
+    <!-- Mani project title -->
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg px-0">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.svg" alt=""
+          /></a>
+          <!-- Main Logo-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="custom-bars-icon"></span>
+          </button>
+          <!-- toggle nav button -->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- navigation links-->
+            <form class="form-inline my-2 my-lg-0 m-0 ml-auto">
+              <ul class="list-unstyled d-flex align-items-center mx-auto">
+                <li class="d-inline-block mr-2 lyl">
+                  <span class="help"></span>
+                </li>
+                <li class="d-inline-block mr-2">
+                  <div class="dropdown .dropdown2">
+                    <button
+                      class="btn dropdown-toggle dropdown-toggle2 text-left"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span class="notification"></span>
+                    </button>
+                    <div
+                      class="dropdown-menu dropdown-menu-2"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item text-white" href="#"
+                        ><span></span>notification</a
+                      >
+                      <a class="dropdown-item text-white" href="#"
+                        ><span></span>notification</a
+                      >
+                      <a class="dropdown-item text-white" href="#"
+                        ><span></span>notification</a
+                      >
+                    </div>
+                    <!-- Notification menu -->
+                  </div>
+                </li>
+                <li class="d-inline-block">
+                  <div class="dropdown">
+                    <button
+                      class="btn dropdown-toggle text-left shd-label"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span class="d-inline-block"
+                        ><img
+                          class="user-pic"
+                          src="./images/home-page/user.png"
+                          alt=""
+                      /></span>
+                      <!-- User picture -->
+                      <span class="user-info d-inline-block">
+                        <span class="user-title d-block">
+                          Expired date
+                        </span>
+                        <span class="user-date d-block link-color">
+                          April 12, 2020
+                        </span>
+                        <!-- Date -->
+                      </span>
+                    </button>
+                    <!-- User info box -->
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item logout-l" href="#"
+                        ><span><img src="./images/logout.png" alt="" /></span
+                        >Logout</a
+                      >
+                    </div>
+                    <!-- Dropdown menu buttons-->
+                  </div>
+                  <!-- Dropdown menu -->
+                </li>
+              </ul>
+            </form>
+            <!-- Form -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End header-->
+    <section class="main-content">
+      <div class="container">
+            <div class="chat">
+              <div class="chat-info mb-3">
+                <div class="header-chat">
+                  <div>
+                    <h3 class="text-white back-b mb-3">
+                      <a href="./tickets.html" class="text-white"
+                        ><i class="fas fa-arrow-left"></i
+                      ></a>
+                      <span class="ml-3 chat-subject">No Response from Server</span>
+                     <button class="tct-btn  enable-h mx-3 d-inline-block case-chat" style="font-size:12px">Unresolved</button>
+
+                    </h3> 
+                  </div>
+                </div>
+                <!-- header chat info -->
+               
+                <div class="chat-conversation">
+                 
+                </div>
+                
+              </div>
+              <div class="sender">
+                <div class="replay-action empty"></div>
+                <div class="d-flex my-3">
+                  <div class="mr-3">
+                    <img
+                      class="main-chat-img admin-img"
+                      src="./images/man.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="w-100 position-relative">
+                    <input type="text" class="chat-value border-0" placeholder="Write a comment…" style="min-height:47px;height:47px">
+                    <button class="btn btn-transparent send-btn"><img src="./images/send.png" alt=""></button>
+                    <!-- Chat Content-->
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+      <!-- Container -->
+    </section>
+    <!-- Main Body Layout Content-->
+    <footer>
+      <div class="container">
+        <div class="row w-100 m-0 p-0">
+          <div class="col-md-6">
+            <ul class="list-unstyled social-footer-links">
+              <li class="d-inline-block">
+                <a href=""><span class="instagram"></span></a>
+              </li>
+              <li class="d-inline-block">
+                <a href=""><span class="twitter"></span></a>
+              </li>
+              <li class="d-inline-block">
+                <a href=""><span class="email"></span></a>
+              </li>
+            </ul>
+            <!--social icon  -->
+          </div>
+          <div class="col-md-6">
+            <div class="text-right terms">
+              <span class="mx-2"><a href="">Terms & Conditions</a></span>
+              <span class="mx-2"><a href="">Privacy Policy</a></span>
+              <span class="mx-2 spread"><a href="">Help</a></span>
+            </div>
+            <!-- Terms and policy -->
+          </div>
+        </div>
+        <!-- Row -->
+      </div>
+      <!-- Container -->
+    </footer>
+    <!-- Footer-->
+
+    <!-- Modal ==========================*********************=========================*********************  -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="messageUser"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered"
+        style="max-width: 400px; margin: auto;"
+      >
+        <div class="modal-content">
+          <h5 class="text-center mb-3 card-dia-num text-white pt-4">
+            ABCD - EFGH - IJKL - MNOP - QRST
+          </h5>
+          <div class="modal-body text-white p-3">
+            <div class="container">
+              <form action="">
+                <div class="d-flex justify-content-between mb-2">
+                  <label class="link-desc">Client Info</label>
+                  <div class="">johnny.brown@gmail.com</div>
+                </div>
+                <div class="form-group">
+                  <label for="" class="link-desc">Subject</label>
+                  <input
+                    value="No Response from Server"
+                    placeholder=""
+                    type="text"
+                    class="text-white main-input position-relative form-control w-100"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="" class="link-desc">Message</label>
+                  <textarea
+                    class="text-white main-input position-relative form-control w-100"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="5"
+                  >
+I can’t pull my request and a message appear on the screen that there was no response from server. Can you fix it? Thanks
+                  </textarea>
+                </div>
+                <span class="d-flex align-items-center justify-content-center">
+                  <span class="mr-2"
+                    ><button class="enable-h">Resolved</button></span
+                  >
+                  <!-- Enable button-->
+                  <span class="active"
+                    ><button class="disable-h" data-dismiss="modal">
+                      Close
+                    </button></span
+                  >
+                  <!-- Disabled button-->
+                </span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="messageUserRespond"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered"
+        style="max-width: 500px; margin: auto;"
+      >
+        <div class="modal-content p-3 sure-d">
+          <h5 class="text-center mb-3 card-dia-num text-white pt-4">
+            Are you sure want to open this ticket?
+          </h5>
+          <div class="pd-w">
+            <div class="table-info my-2 w-100 info-e">
+              <div class="mb-2">
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="link-desc my-1 code-crd" class="curs">
+                    Ticket Subject
+                  </div>
+                  <!-- Card number -->
+                  <div class="text-white">
+                    <a href="" class="text-white d-inline-block p-1">
+                      <button class="tct-btn re-sol">Resolved</button>
+                      <!-- Button-->
+                    </a>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="sm-prg text-white my-1">
+                    No Response from Server
+                    <span class="link-desc sm-dig-none"
+                      >I am having issue intefrating API in to the…</span
+                    >
+                  </div>
+                  <!-- Subject -->
+                </div>
+                <!-- Email-->
+                <!-- Name -->
+              </div>
+            </div>
+          </div>
+          <div class="mt-3">
+            <span class="d-flex align-items-center justify-content-center">
+              <a href="#" class="mr-2"><span class="enable-h">yes</span></a>
+              <!-- Enable button-->
+              <a href="#" class="active"
+                ><span class="disable-h" data-dismiss="modal">
+                  No
+                </span></a
+              >
+              <!-- Disabled button-->
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/chat.js"></script>
+  </body>
+</html>

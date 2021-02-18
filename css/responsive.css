@@ -1,0 +1,310 @@
+/* Global  ======================================================================================= */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container,
+  .container-sm {
+    max-width: 560px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1300px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1300px;
+  }
+}
+
+/* Header  */
+
+@media (max-width: 991.98px) {
+  #navbarSupportedContent {
+    background-color: rgb(24, 36, 72);
+    padding: 10px;
+  }
+  header {
+    padding: 0;
+  }
+}
+/* Global  ======================================================================================= */
+
+/* ------------------------------------------------------------------------------------------------
+------------------ Home Page ----------------------------------------------------------------------
+------------------------------------------------------------------------------------------------ */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .main-des {
+    height: 60px;
+    padding: 0 20px 0 10px;
+    font-size: 16px;
+    margin-left: auto;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+  .main-des img {
+    width: 50px;
+  }
+  .pgs-bar h6 {
+    margin-top: 40px;
+    font-weight: 200;
+    margin-bottom: 5px !important; /* because it has class " mb-3 " */
+  }
+  .sm-dis {
+    display: none;
+  }
+  .second-track {
+    margin-top: 30px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .second-track {
+    margin-top: 30px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .second-track {
+    margin-top: 30px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .main-des {
+    height: 60px;
+    padding: 0 20px 0 10px;
+    font-size: 16px;
+  }
+  .main-des img {
+    width: 50px;
+  }
+  .index-values .col {
+    padding: 0;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* ------------------------------------------------------------------------------------------------
+----------------- End Home Page -------------------------------------------------------------------
+------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------------
+------------------ Renew Page ---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------ */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (max-width: 767.98px) {
+  .renew-page .main-des {
+    left: auto;
+    transform: translateX(0);
+  }
+  .renew-page .align-sm {
+    text-align: center;
+  }
+  .renew-page .card-info {
+    margin-bottom: 15px;
+    display: block !important; /*because it has class " d-flex " */
+  }
+  .cart-txt {
+    margin-top: 15px !important /* because it has class " " */;
+  }
+  .renew-page .renew-btn {
+    display: block;
+    text-align: center;
+  }
+  .renew-page .renew-btn > div {
+    margin-bottom: 15px;
+  }
+  .renew-page .card-btn {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .renew-page .n-more,
+  .c-us {
+    display: block;
+    text-align: center;
+  }
+  .renew-page .need {
+    margin-top: 10px;
+  }
+  .renew-page .price_yellow {
+    display: block;
+    margin-top: 10px;
+  }
+  .hid-sm {
+    display: none;
+  }
+  .navigation-links {
+    display: none;
+  }
+  .table-layout {
+    display: none;
+  }
+  .point-title {
+    background-color: transparent;
+  }
+  .def-title span {
+    background-color: #2a3660;
+  }
+  .mobile-request {
+    display: block;
+    font-size: 12px;
+  }
+  .tools {
+    background-color: transparent;
+    margin-bottom: 10px !important; /* because is has class " mb-3 " */
+  }
+  .sub-c {
+    font-size: 13px;
+  }
+  .sm-dig-none {
+    display: none;
+  }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .renew-page .renew-btn {
+    display: block;
+    text-align: center;
+  }
+  .renew-page .renew-btn > div {
+    margin-bottom: 15px;
+  }
+  .renew-page .card-btn {
+    text-align: center;
+  }
+  .renew-page .n-more,
+  .c-us {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .renew-page .pause,
+  .renew-page .extra {
+    width: 131px;
+    font-size: 13px;
+  }
+  .renew-page .date-remain {
+    color: #ffaf6c;
+    font-size: 13px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* ------------------------------------------------------------------------------------------------
+--------------- End  Renew Page -------------------------------------------------------------------
+------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------
+------------  Chat  -----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------ */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (max-width: 767.98px) {
+  .back-b {
+    font-size: 15px;
+  }
+  .kld {
+    margin-left: 0 !important;
+  }
+  .kld > div {
+    margin-bottom: 8px;
+  }
+  .response-text {
+    font-size: 13px;
+  }
+  .response-content {
+    background-color: #212c50;
+    margin: 8px 0;
+    padding: 13px;
+    border-radius: 8px;
+    min-height: 89px;
+  }
+  .chat-value {
+    background-color: #212c50;
+    min-height: 50px;
+    padding: 10px;
+  }
+  .chat-info {
+    padding: 12px 12px;
+  }
+  .chat-conversation {
+    min-height: 300px;
+    height: 300px;
+    overflow: auto;
+  }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* ------------------------------------------------------------------------------------------------
+------------  End Chat  ---------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------------
+------------  dialog  -----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------ */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .modal-dialog .main-input {
+    font-size: 14px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (max-width: 767.98px) {
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* ------------------------------------------------------------------------------------------------
+--------  dialog ----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------ */

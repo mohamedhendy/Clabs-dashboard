@@ -1,0 +1,1057 @@
+.progress-radial {
+  display: inline-block;
+  position: relative;
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  background-color: #599FFF;
+}
+.progress-radial::after,
+.progress-radial::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  top: 41%;
+  left: 41%;
+  margin-left: 3.5px;
+  margin-top: 3.5px;
+  position: absolute;
+  z-index: 999;
+  border: 3px solid #599FFF;
+  box-shadow: rgba(0, 0, 0, 0.2) 10px 0px 10px;
+  border-radius: 50%;
+  background: rgb(33, 44, 80);
+}
+
+.progress-radial:after {
+  z-index: 998;
+  box-shadow: none;
+  transform: translate(0, -58.5px);
+}
+.progress-radial b:after {
+    color: #599FFF;
+    position: absolute;
+    font-weight: 900;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 50%;
+    background-color: #2a3660;
+    border-radius: 50%;
+    margin-left: -25%;
+    margin-top: -25%;
+    text-align: center;
+    line-height: 90px;
+    font-size: 30px;
+    box-shadow: 0 2px 3px #2a3660 inset, 0 0 0 16px #2a3660;
+}
+.progress-0 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(90deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-0:before {
+  transform: rotate(0deg) translate(0, -57.5px);
+}
+.progress-0 b:after {
+  content: "";
+}
+.progress-1 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(93.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-1:before {
+  transform: rotate(3.6deg) translate(0, -57.5px);
+}
+.progress-1 b:after {
+  content: "";
+}
+.progress-2 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(97.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-2:before {
+  transform: rotate(7.2deg) translate(0, -57.5px);
+}
+.progress-2 b:after {
+  content: "";
+}
+.progress-3 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(100.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-3:before {
+  transform: rotate(10.8deg) translate(0, -57.5px);
+}
+.progress-3 b:after {
+  content: "";
+}
+.progress-4 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(104.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-4:before {
+  transform: rotate(14.4deg) translate(0, -57.5px);
+}
+.progress-4 b:after {
+  content: "";
+}
+.progress-5 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(108deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-5:before {
+  transform: rotate(18deg) translate(0, -57.5px);
+}
+.progress-5 b:after {
+  content: "";
+}
+.progress-6 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(111.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-6:before {
+  transform: rotate(21.6deg) translate(0, -57.5px);
+}
+.progress-6 b:after {
+  content: "";
+}
+.progress-7 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(115.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-7:before {
+  transform: rotate(25.2deg) translate(0, -57.5px);
+}
+.progress-7 b:after {
+  content: "";
+}
+.progress-8 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(118.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-8:before {
+  transform: rotate(28.8deg) translate(0, -57.5px);
+}
+.progress-8 b:after {
+  content: "";
+}
+.progress-9 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(122.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-9:before {
+  transform: rotate(32.4deg) translate(0, -57.5px);
+}
+.progress-9 b:after {
+  content: "";
+}
+.progress-10 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(126deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-10:before {
+  transform: rotate(36deg) translate(0, -57.5px);
+}
+.progress-10 b:after {
+  content: "";
+}
+.progress-11 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(129.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-11:before {
+  transform: rotate(39.6deg) translate(0, -57.5px);
+}
+.progress-11 b:after {
+  content: "";
+}
+.progress-12 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(133.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-12:before {
+  transform: rotate(43.2deg) translate(0, -57.5px);
+}
+.progress-12 b:after {
+  content: "";
+}
+.progress-13 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(136.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-13:before {
+  transform: rotate(46.8deg) translate(0, -57.5px);
+}
+.progress-13 b:after {
+  content: "";
+}
+.progress-14 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(140.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-14:before {
+  transform: rotate(50.4deg) translate(0, -57.5px);
+}
+.progress-14 b:after {
+  content: "";
+}
+.progress-15 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(144deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-15:before {
+  transform: rotate(54deg) translate(0, -57.5px);
+}
+.progress-15 b:after {
+  content: "";
+}
+.progress-16 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(147.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-16:before {
+  transform: rotate(57.6deg) translate(0, -57.5px);
+}
+.progress-16 b:after {
+  content: "";
+}
+.progress-17 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(151.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-17:before {
+  transform: rotate(61.2deg) translate(0, -57.5px);
+}
+.progress-17 b:after {
+  content: "";
+}
+.progress-18 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(154.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-18:before {
+  transform: rotate(64.8deg) translate(0, -57.5px);
+}
+.progress-18 b:after {
+  content: "";
+}
+.progress-19 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(158.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-19:before {
+  transform: rotate(68.4deg) translate(0, -57.5px);
+}
+.progress-19 b:after {
+  content: "";
+}
+.progress-20 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(162deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-20:before {
+  transform: rotate(72deg) translate(0, -57.5px);
+}
+.progress-20 b:after {
+  content: "";
+}
+.progress-21 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(165.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-21:before {
+  transform: rotate(75.6deg) translate(0, -57.5px);
+}
+.progress-21 b:after {
+  content: "";
+}
+.progress-22 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(169.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-22:before {
+  transform: rotate(79.2deg) translate(0, -57.5px);
+}
+.progress-22 b:after {
+  content: "";
+}
+.progress-23 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(172.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-23:before {
+  transform: rotate(82.8deg) translate(0, -57.5px);
+}
+.progress-23 b:after {
+  content: "";
+}
+.progress-24 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(176.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-24:before {
+  transform: rotate(86.4deg) translate(0, -57.5px);
+}
+.progress-24 b:after {
+  content: "";
+}
+.progress-25 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(180deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-25:before {
+  transform: rotate(90deg) translate(0, -57.5px);
+}
+.progress-25 b:after {
+  content: "";
+}
+.progress-26 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(183.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-26:before {
+  transform: rotate(93.6deg) translate(0, -57.5px);
+}
+.progress-26 b:after {
+  content: "";
+}
+.progress-27 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(187.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-27:before {
+  transform: rotate(97.2deg) translate(0, -57.5px);
+}
+.progress-27 b:after {
+  content: "";
+}
+.progress-28 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(190.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-28:before {
+  transform: rotate(100.8deg) translate(0, -57.5px);
+}
+.progress-28 b:after {
+  content: "";
+}
+.progress-29 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(194.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-29:before {
+  transform: rotate(104.4deg) translate(0, -57.5px);
+}
+.progress-29 b:after {
+  content: "";
+}
+.progress-30 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(198deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-30:before {
+  transform: rotate(108deg) translate(0, -57.5px);
+}
+.progress-30 b:after {
+  content: "";
+}
+.progress-31 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(201.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-31:before {
+  transform: rotate(111.6deg) translate(0, -57.5px);
+}
+.progress-31 b:after {
+  content: "";
+}
+.progress-32 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(205.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-32:before {
+  transform: rotate(115.2deg) translate(0, -57.5px);
+}
+.progress-32 b:after {
+  content: "";
+}
+.progress-33 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(208.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-33:before {
+  transform: rotate(118.8deg) translate(0, -57.5px);
+}
+.progress-33 b:after {
+  content: "";
+}
+.progress-34 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(212.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-34:before {
+  transform: rotate(122.4deg) translate(0, -57.5px);
+}
+.progress-34 b:after {
+  content: "";
+}
+.progress-35 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(216deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-35:before {
+  transform: rotate(126deg) translate(0, -57.5px);
+}
+.progress-35 b:after {
+  content: "";
+}
+.progress-36 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(219.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-36:before {
+  transform: rotate(129.6deg) translate(0, -57.5px);
+}
+.progress-36 b:after {
+  content: "";
+}
+.progress-37 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(223.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-37:before {
+  transform: rotate(133.2deg) translate(0, -57.5px);
+}
+.progress-37 b:after {
+  content: "";
+}
+.progress-38 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(226.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-38:before {
+  transform: rotate(136.8deg) translate(0, -57.5px);
+}
+.progress-38 b:after {
+  content: "";
+}
+.progress-39 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(230.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-39:before {
+  transform: rotate(140.4deg) translate(0, -57.5px);
+}
+.progress-39 b:after {
+  content: "";
+}
+.progress-40 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(234deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-40:before {
+  transform: rotate(144deg) translate(0, -57.5px);
+}
+.progress-40 b:after {
+  content: "";
+}
+.progress-41 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(237.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-41:before {
+  transform: rotate(147.6deg) translate(0, -57.5px);
+}
+.progress-41 b:after {
+  content: "";
+}
+.progress-42 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(241.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-42:before {
+  transform: rotate(151.2deg) translate(0, -57.5px);
+}
+.progress-42 b:after {
+  content: "";
+}
+.progress-43 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(244.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-43:before {
+  transform: rotate(154.8deg) translate(0, -57.5px);
+}
+.progress-43 b:after {
+  content: "";
+}
+.progress-44 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(248.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-44:before {
+  transform: rotate(158.4deg) translate(0, -57.5px);
+}
+.progress-44 b:after {
+  content: "";
+}
+.progress-45 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(252deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-45:before {
+  transform: rotate(162deg) translate(0, -57.5px);
+}
+.progress-45 b:after {
+  content: "";
+}
+.progress-46 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(255.6deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-46:before {
+  transform: rotate(165.6deg) translate(0, -57.5px);
+}
+.progress-46 b:after {
+  content: "";
+}
+.progress-47 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(259.2deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-47:before {
+  transform: rotate(169.2deg) translate(0, -57.5px);
+}
+.progress-47 b:after {
+  content: "";
+}
+.progress-48 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(262.8deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-48:before {
+  transform: rotate(172.8deg) translate(0, -57.5px);
+}
+.progress-48 b:after {
+  content: "";
+}
+.progress-49 {
+  background-image: linear-gradient(90deg, #212c4f 50%, transparent 50%, transparent),
+    linear-gradient(266.4deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-49:before {
+  transform: rotate(176.4deg) translate(0, -57.5px);
+}
+.progress-49 b:after {
+  content: "";
+}
+.progress-50 {
+  background-image: linear-gradient(-90deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-50:before {
+  transform: rotate(180deg) translate(0, -57.5px);
+}
+.progress-50 b:after {
+  content: "";
+}
+.progress-51 {
+  background-image: linear-gradient(-86.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-51:before {
+  transform: rotate(183.6deg) translate(0, -57.5px);
+}
+.progress-51 b:after {
+  content: "";
+}
+.progress-52 {
+  background-image: linear-gradient(-82.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-52:before {
+  transform: rotate(187.2deg) translate(0, -57.5px);
+}
+.progress-52 b:after {
+  content: "";
+}
+.progress-53 {
+  background-image: linear-gradient(-79.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-53:before {
+  transform: rotate(190.8deg) translate(0, -57.5px);
+}
+.progress-53 b:after {
+  content: "";
+}
+.progress-54 {
+  background-image: linear-gradient(-75.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-54:before {
+  transform: rotate(194.4deg) translate(0, -57.5px);
+}
+.progress-54 b:after {
+  content: "";
+}
+.progress-55 {
+  background-image: linear-gradient(-72deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-55:before {
+  transform: rotate(198deg) translate(0, -57.5px);
+}
+.progress-55 b:after {
+  content: "";
+}
+.progress-56 {
+  background-image: linear-gradient(-68.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-56:before {
+  transform: rotate(201.6deg) translate(0, -57.5px);
+}
+.progress-56 b:after {
+  content: "";
+}
+.progress-57 {
+  background-image: linear-gradient(-64.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-57:before {
+  transform: rotate(205.2deg) translate(0, -57.5px);
+}
+.progress-57 b:after {
+  content: "";
+}
+.progress-58 {
+  background-image: linear-gradient(-61.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-58:before {
+  transform: rotate(208.8deg) translate(0, -57.5px);
+}
+.progress-58 b:after {
+  content: "";
+}
+.progress-59 {
+  background-image: linear-gradient(-57.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-59:before {
+  transform: rotate(212.4deg) translate(0, -57.5px);
+}
+.progress-59 b:after {
+  content: "";
+}
+.progress-60 {
+  background-image: linear-gradient(-54deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-60:before {
+  transform: rotate(216deg) translate(0, -57.5px);
+}
+.progress-60 b:after {
+  content: "";
+}
+.progress-61 {
+  background-image: linear-gradient(-50.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-61:before {
+  transform: rotate(219.6deg) translate(0, -57.5px);
+}
+.progress-61 b:after {
+  content: "";
+}
+.progress-62 {
+  background-image: linear-gradient(-46.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-62:before {
+  transform: rotate(223.2deg) translate(0, -57.5px);
+}
+.progress-62 b:after {
+  content: "";
+}
+.progress-63 {
+  background-image: linear-gradient(-43.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-63:before {
+  transform: rotate(226.8deg) translate(0, -57.5px);
+}
+.progress-63 b:after {
+  content: "";
+}
+.progress-64 {
+  background-image: linear-gradient(-39.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-64:before {
+  transform: rotate(230.4deg) translate(0, -57.5px);
+}
+.progress-64 b:after {
+  content: "";
+}
+.progress-65 {
+  background-image: linear-gradient(-36deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-65:before {
+  transform: rotate(234deg) translate(0, -57.5px);
+}
+.progress-65 b:after {
+  content: "";
+}
+.progress-66 {
+  background-image: linear-gradient(-32.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-66:before {
+  transform: rotate(237.6deg) translate(0, -57.5px);
+}
+.progress-66 b:after {
+  content: "";
+}
+.progress-67 {
+  background-image: linear-gradient(-28.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-67:before {
+  transform: rotate(241.2deg) translate(0, -57.5px);
+}
+.progress-67 b:after {
+  content: "";
+}
+.progress-68 {
+  background-image: linear-gradient(-25.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-68:before {
+  transform: rotate(244.8deg) translate(0, -57.5px);
+}
+.progress-68 b:after {
+  content: "";
+}
+.progress-69 {
+  background-image: linear-gradient(-21.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-69:before {
+  transform: rotate(248.4deg) translate(0, -57.5px);
+}
+.progress-69 b:after {
+  content: "";
+}
+.progress-70 {
+  background-image: linear-gradient(-18deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-70:before {
+  transform: rotate(252deg) translate(0, -57.5px);
+}
+.progress-70 b:after {
+  content: "";
+}
+.progress-71 {
+  background-image: linear-gradient(-14.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-71:before {
+  transform: rotate(255.6deg) translate(0, -57.5px);
+}
+.progress-71 b:after {
+  content: "";
+}
+.progress-72 {
+  background-image: linear-gradient(-10.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-72:before {
+  transform: rotate(259.2deg) translate(0, -57.5px);
+}
+.progress-72 b:after {
+  content: "";
+}
+.progress-73 {
+  background-image: linear-gradient(-7.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-73:before {
+  transform: rotate(262.8deg) translate(0, -57.5px);
+}
+.progress-73 b:after {
+  content: "";
+}
+.progress-74 {
+  background-image: linear-gradient(-3.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-74:before {
+  transform: rotate(266.4deg) translate(0, -57.5px);
+}
+.progress-74 b:after {
+  content: "";
+}
+.progress-75 {
+  background-image: linear-gradient(0deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-75:before {
+  transform: rotate(270deg) translate(0, -57.5px);
+}
+.progress-75 b:after {
+  content: "";
+}
+.progress-76 {
+  background-image: linear-gradient(3.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-76:before {
+  transform: rotate(273.6deg) translate(0, -57.5px);
+}
+.progress-76 b:after {
+  content: "";
+}
+.progress-77 {
+  background-image: linear-gradient(7.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-77:before {
+  transform: rotate(277.2deg) translate(0, -57.5px);
+}
+.progress-77 b:after {
+  content: "";
+}
+.progress-78 {
+  background-image: linear-gradient(10.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-78:before {
+  transform: rotate(280.8deg) translate(0, -57.5px);
+}
+.progress-78 b:after {
+  content: "";
+}
+.progress-79 {
+  background-image: linear-gradient(14.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-79:before {
+  transform: rotate(284.4deg) translate(0, -57.5px);
+}
+.progress-79 b:after {
+  content: "";
+}
+.progress-80 {
+  background-image: linear-gradient(18deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-80:before {
+  transform: rotate(288deg) translate(0, -57.5px);
+}
+.progress-80 b:after {
+  content: "";
+}
+.progress-81 {
+  background-image: linear-gradient(21.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-81:before {
+  transform: rotate(291.6deg) translate(0, -57.5px);
+}
+.progress-81 b:after {
+  content: "";
+}
+.progress-82 {
+  background-image: linear-gradient(25.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-82:before {
+  transform: rotate(295.2deg) translate(0, -57.5px);
+}
+.progress-82 b:after {
+  content: "";
+}
+.progress-83 {
+  background-image: linear-gradient(28.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-83:before {
+  transform: rotate(298.8deg) translate(0, -57.5px);
+}
+.progress-83 b:after {
+  content: "";
+}
+.progress-84 {
+  background-image: linear-gradient(32.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-84:before {
+  transform: rotate(302.4deg) translate(0, -57.5px);
+}
+.progress-84 b:after {
+  content: "";
+}
+.progress-85 {
+  background-image: linear-gradient(36deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-85:before {
+  transform: rotate(306deg) translate(0, -57.5px);
+}
+.progress-85 b:after {
+  content: "";
+}
+.progress-86 {
+  background-image: linear-gradient(39.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-86:before {
+  transform: rotate(309.6deg) translate(0, -57.5px);
+}
+.progress-86 b:after {
+  content: "";
+}
+.progress-87 {
+  background-image: linear-gradient(43.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-87:before {
+  transform: rotate(313.2deg) translate(0, -57.5px);
+}
+.progress-87 b:after {
+  content: "";
+}
+.progress-88 {
+  background-image: linear-gradient(46.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-88:before {
+  transform: rotate(316.8deg) translate(0, -57.5px);
+}
+.progress-88 b:after {
+  content: "";
+}
+.progress-89 {
+  background-image: linear-gradient(50.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-89:before {
+  transform: rotate(320.4deg) translate(0, -57.5px);
+}
+.progress-89 b:after {
+  content: "";
+}
+.progress-90 {
+  background-image: linear-gradient(54deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-90:before {
+  transform: rotate(324deg) translate(0, -57.5px);
+}
+.progress-90 b:after {
+  content: "";
+}
+.progress-91 {
+  background-image: linear-gradient(57.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-91:before {
+  transform: rotate(327.6deg) translate(0, -57.5px);
+}
+.progress-91 b:after {
+  content: "";
+}
+.progress-92 {
+  background-image: linear-gradient(61.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-92:before {
+  transform: rotate(331.2deg) translate(0, -57.5px);
+}
+.progress-92 b:after {
+  content: "";
+}
+.progress-93 {
+  background-image: linear-gradient(64.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-93:before {
+  transform: rotate(334.8deg) translate(0, -57.5px);
+}
+.progress-93 b:after {
+  content: "";
+}
+.progress-94 {
+  background-image: linear-gradient(68.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-94:before {
+  transform: rotate(338.4deg) translate(0, -57.5px);
+}
+.progress-94 b:after {
+  content: "";
+}
+.progress-95 {
+  background-image: linear-gradient(72deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-95:before {
+  transform: rotate(342deg) translate(0, -57.5px);
+}
+.progress-95 b:after {
+  content: "";
+}
+.progress-96 {
+  background-image: linear-gradient(75.6deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-96:before {
+  transform: rotate(345.6deg) translate(0, -57.5px);
+}
+.progress-96 b:after {
+  content: "";
+}
+.progress-97 {
+  background-image: linear-gradient(79.2deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-97:before {
+  transform: rotate(349.2deg) translate(0, -57.5px);
+}
+.progress-97 b:after {
+  content: "";
+}
+.progress-98 {
+  background-image: linear-gradient(82.8deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-98:before {
+  transform: rotate(352.8deg) translate(0, -57.5px);
+}
+.progress-98 b:after {
+  content: "";
+}
+.progress-99 {
+  background-image: linear-gradient(86.4deg, #599FFF 50%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-99:before {
+  transform: rotate(356.4deg) translate(0, -57.5px);
+}
+.progress-99 b:after {
+  content: "";
+}
+.progress-100 {
+  background-image: linear-gradient(90deg, #599FFF 51%, transparent 50%, transparent),
+    linear-gradient(270deg, #599FFF 50%, #212c4f 50%, #212c4f);
+}
+.progress-100:before {
+  transform: rotate(360deg) translate(0, -57.5px);
+}
+.progress-100 b:after {
+  content: "";
+}

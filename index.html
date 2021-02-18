@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap v4.5.x  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- font-awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <!-- progress bar -->
+    <link rel="stylesheet" href="./css/progress.css" />
+    <!-- custom style  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- responsive  -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <title>Project</title>
+    <!-- Mani project title -->
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg px-0">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.svg" alt=""
+          /></a>
+          <!-- Main Logo-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="custom-bars-icon"></span>
+          </button>
+          <!-- toggle nav button -->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="./renew.html">Renewal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 active" href="./index.html"
+                  >Dashboard</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="./Tickets.html">Tickets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Help</a>
+              </li>
+            </ul>
+            <!-- navigation links-->
+            <form class="form-inline my-2 my-lg-0">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li class="d-inline-block mr-2 lyl">
+                  <span class="help"></span>
+                </li>
+                <li class="d-inline-block mr-2">
+                  <div class="dropdown .dropdown2">
+                    <button
+                      class="btn dropdown-toggle dropdown-toggle2 text-left"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span class="notification"></span>
+                    </button>
+                    <div
+                      class="dropdown-menu dropdown-menu-2"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item text-white" href="#"
+                        ><span></span>notification</a
+                      >
+                      <a class="dropdown-item text-white" href="#"
+                        ><span></span>notification</a
+                      >
+                      <a class="dropdown-item text-white" href="#"
+                        ><span></span>notification</a
+                      >
+                    </div>
+                    <!-- Notification menu -->
+                  </div>
+                </li>
+                <li class="d-inline-block">
+                  <div class="dropdown">
+                    <button
+                      class="btn dropdown-toggle text-left shd-label"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span class="d-inline-block"
+                        ><img
+                          class="user-pic"
+                          src="./images/home-page/user.png"
+                          alt=""
+                      /></span>
+                      <!-- User picture -->
+                      <span class="user-info d-inline-block">
+                        <span class="user-title d-block">
+                          Expired date
+                        </span>
+                        <span class="user-date d-block link-color">
+                          April 12, 2020
+                        </span>
+                        <!-- Date -->
+                      </span>
+                    </button>
+                    <!-- User info box -->
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item logout-l" href="#"
+                        ><span><img src="./images/logout.png" alt="" /></span
+                        >Logout</a
+                      >
+                    </div>
+                    <!-- Dropdown menu buttons-->
+                  </div>
+                  <!-- Dropdown menu -->
+                </li>
+              </ul>
+            </form>
+            <!-- Form -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End header-->
+    <section class="main-content">
+      <div class="container">
+        <div class="overflow-content overflow-auto max-content dash-cards">
+          
+          <!-- Row -->
+        </div>
+        
+      </div>
+      <!-- index content-->
+      <!-- Container -->
+    </section>
+    <!-- Main Body Layout Content-->
+    <footer>
+      <div class="container">
+        <div class="row w-100 m-0 p-0">
+          <div class="col-md-6">
+            <ul class="list-unstyled social-footer-links">
+              <li class="d-inline-block">
+                <a href=""><span class="instagram"></span></a>
+              </li>
+              <li class="d-inline-block">
+                <a href=""><span class="twitter"></span></a>
+              </li>
+              <li class="d-inline-block">
+                <a href=""><span class="email"></span></a>
+              </li>
+            </ul>
+            <!--social icon  -->
+          </div>
+          <div class="col-md-6">
+            <div class="text-right terms">
+              <span class="mx-2"><a href="">Terms & Conditions</a></span>
+              <span class="mx-2"><a href="">Privacy Policy</a></span>
+            </div>
+            <!-- Terms and policy -->
+          </div>
+        </div>
+        <!-- Row -->
+      </div>
+      <!-- Container -->
+    </footer>
+    <!-- Footer-->
+
+    <!-- Modal ==========================*********************=========================*********************  -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="messageUser"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered"
+        style="max-width: 400px; margin: auto;"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-white p-3">
+            <div class="container">
+              <form action="">
+                <div class="form-group">
+                  <label for="" class="link-desc">Subject</label>
+                  <input
+                    placeholder="your subject"
+                    type="text"
+                    class="text-white main-input position-relative form-control w-100"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="" class="link-desc">Message</label>
+                  <textarea
+                    class="text-white main-input position-relative form-control w-100"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="5"
+                    placeholder="your message"
+                  ></textarea>
+                </div>
+
+                <span class="d-flex align-items-center justify-content-center">
+                  <span class="mr-2"
+                    ><button class="enable-h">Send</button></span
+                  >
+                  <!-- Enable button-->
+                  <span class="active"
+                    ><button class="disable-h" data-dismiss="modal">
+                      Close
+                    </button></span
+                  >
+                  <!-- Disabled button-->
+                </span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="contactUserForm"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered"
+        style="max-width: 400px; margin: auto;"
+      >
+        <div class="modal-content">
+          <div class="modal-body text-white p-3">
+            <div class="container">
+              <form action="">
+                <div class="form-group">
+                  <label for="" class="link-desc">Subject</label>
+                  <input
+                    placeholder="your subject"
+                    type="text"
+                    class="text-white main-input position-relative form-control w-100"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="" class="link-desc">Message</label>
+                  <textarea
+                    class="text-white main-input position-relative form-control w-100"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="5"
+                    placeholder="your message"
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="" class="link-desc">Select API</label>
+                  <select
+                    name=""
+                    class="text-white main-input position-relative form-control w-100"
+                    id=""
+                  >
+                    <option value="">Supreme</option>
+                    <option value="">Supreme</option>
+                    <option value="">Supreme</option>
+                    <option value="">Supreme</option>
+                    <option value="">Supreme</option>
+                  </select>
+                </div>
+                <span class="d-flex align-items-center justify-content-center">
+                  <span class="mr-2"
+                    ><button class="enable-h">Resolve</button></span
+                  >
+                  <!-- Enable button-->
+                  <span class="active"
+                    ><button class="disable-h" data-dismiss="modal">
+                      Close
+                    </button></span
+                  >
+                  <!-- Disabled button-->
+                </span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-none dsh-pge">
+      <div class="index-content mb-3 dash-card-index">
+        <div class="row w-100 p-0 m-0">
+          <div class="col-xl-3 col-lg-4 col-sm-7 p-0">
+            <span class="main-des">
+              <span class="mx-2"
+                ><img
+                  class="clabs-brand-img"
+                  src="./images/foot_looker.png"
+                  alt=""
+              /></span>
+              <span class="clabs-brand-name text-white font-weight-bold"
+                >Foot Locker </span> <span class="text-white ml-1"> Key</span>
+            </span>
+            <ul class="list-unstyled ml-2 mb-0 url-info">
+              <li class="mt-2 link-desc">URL</li>
+              <li class="mt-2">
+                <a href="" class="link-color clabs-link"
+                  >https://clabs.ninja/footlocker</a
+                >
+              </li>
+              <li class="mt-2 link-desc">API Key</li>
+              <li class="mt-2">
+                <a href="#" class="link-color clabs-key"
+                  >ABCD - EFGH - IJKL - MNOP - QRST</a
+                >
+                <a href="./help.html" class="link-color mx-1"
+                  ><i class="far fa-question-circle help-btn"></i
+                ></a>
+              </li>
+              <li class="mt-3 link-desc">
+                <img class="mr-2" src="./images/mail-gray.png" alt="" />
+                <span>Having trouble?</span>
+                <a
+                  class="link-color font-weight-bold"
+                  href="javascript:void(0)"
+                  data-toggle="modal"
+                  data-target="#messageUser"
+                  >Send Ticket</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- col-xl-3-->
+          <div class="col-xl-4 col-lg-3 col-sm-5 pgs-bar">
+            <h6 class="link-desc text-center h6-title mb-3">Requests</h6>
+            <h4 class="link-desc text-center pro-fonts">
+              <span class="link-color pro-fonts clabs-request">846</span
+              >/6000
+            </h4>
+            <!-- total number of request-->
+            <div class="main-circle">
+              <div class="first-circle d-flex justify-content-center mt-4">
+                <div class="progress-radial progress-20"><b></b></div>
+              </div>
+            </div>
+            <!-- main progress circle-->
+          </div>
+          <!-- col-xl-4-->
+          <div class="col-lg-5 col-md-12">
+            <div class="row index second-track">
+              <!-- account index percentage  -->
+              <div class="col-4">
+                <span class="link-desc">Usage</span>
+              </div>
+              <div class="col-8">
+                <div class="h-circle-btn">
+                  <ul class="list-unstyled text-right mb-0">
+                    <li class="d-inline-block"><button>T</button></li>
+                    <li class="d-inline-block active">
+                      <button>W</button>
+                    </li>
+                    <li class="d-inline-block"><button>M</button></li>
+                    <li class="d-inline-block"><button>Y</button></li>
+                  </ul>
+                </div>
+                <!-- Week days button-->
+              </div>
+              <div class="container index-values">
+                <div class="row">
+                  <div class="col sm-dis">
+                    <div class="d-flex justify-content-end flex-column">
+                      <div>
+                        <span class="yellow-number day1">5450</span>
+                        <!--number-->
+                      </div>
+                      <div class="method">
+                        <div class="fill-item percent-1" percent-value="60%"></div>
+                        <!-- percent ratio-->
+                      </div>
+                      <div class="index-date">
+                        <span class="link-desc"
+                          ><small class="month-date-1">Mar 19</small></span
+                        >
+                        <!-- month -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col sm-dis">
+                    <div class="d-flex justify-content-end flex-column">
+                      <div>
+                        <span class="yellow-number day2">5450</span>
+                        <!--number-->
+                      </div>
+                      <div class="method">
+                        <div class="fill-item percent-2" percent-value="60%"></div>
+                        <!-- percent ratio-->
+                      </div>
+                      <div class="index-date">
+                        <span class="link-desc"
+                          ><small class="month-date-2">Mar 19</small></span
+                        >
+                        <!-- month -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col sm-dis">
+                    <div class="d-flex justify-content-end flex-column">
+                      <div>
+                        <span class="yellow-number day3">5450</span>
+                        <!--number-->
+                      </div>
+                      <div class="method">
+                        <div class="fill-item  percent-3" percent-value="60%"></div>
+                        <!-- percent ratio-->
+                      </div>
+                      <div class="index-date">
+                        <span class="link-desc"
+                          ><small class="month-date-3">Mar 19</small></span
+                        >
+                        <!-- month -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col sm-dis">
+                    <div class="d-flex justify-content-end flex-column">
+                      <div>
+                        <span class="yellow-number day4">5450</span>
+                        <!--number-->
+                      </div>
+                      <div class="method">
+                        <div class="fill-item percent-4" percent-value="60%"></div>
+                        <!-- percent ratio-->
+                      </div>
+                      <div class="index-date">
+                        <span class="link-desc"
+                          ><small class="month-date-4">Mar 19</small></span
+                        >
+                        <!-- month -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col sm-dis">
+                    <div class="d-flex justify-content-end flex-column">
+                      <div>
+                        <span class="yellow-number day5">5450</span>
+                        <!--number-->
+                      </div>
+                      <div class="method">
+                        <div class="fill-item percent-5" percent-value="60%"></div>
+                        <!-- percent ratio-->
+                      </div>
+                      <div class="index-date">
+                        <span class="link-desc"
+                          ><small class="month-date-5">Mar 19</small></span
+                        >
+                        <!-- month -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col sm-dis">
+                    <div class="d-flex justify-content-end flex-column">
+                      <div>
+                        <span class="yellow-number day6">5450</span>
+                        <!--number-->
+                      </div>
+                      <div class="method">
+                        <div class="fill-item percent-6" percent-value="60%"></div>
+                        <!-- percent ratio-->
+                      </div>
+                      <div class="index-date">
+                        <span class="link-desc"
+                          ><small class="month-date-6">Mar 19</small></span
+                        >
+                        <!-- month -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col sm-dis">
+                    <div class="d-flex justify-content-end flex-column">
+                      <div>
+                        <span class="yellow-number day7">5450</span>
+                        <!--number-->
+                      </div>
+                      <div class="method">
+                        <div class="fill-item percent-7" percent-value="60%"></div>
+                        <!-- percent ratio-->
+                      </div>
+                      <div class="index-date">
+                        <span class="link-desc"
+                          ><small class="month-date-7">Mar 19</small></span
+                        >
+                        <!-- month -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- index ration-->
+            </div>
+          </div>
+        </div>
+        <!-- col-xl-6-->
+      </div>
+    </div>
+
+
+    <!-- unavailable card  -->
+    <div class="pge-na d-none">
+      <div class="index-content mb-3 ov-fn dash-card-index">
+        <div class="overlay">
+          <h4 class="text-white d-block">Unavailable</h4>
+          <h6 class="d-block">
+            <a
+              href=""
+              class="link-color"
+              data-toggle="modal"
+              data-target="#contactUserForm"
+              ><i class="far fa-envelope"></i> Contact us if interested</a
+            >
+          </h6>
+        </div>
+        <div class="row w-100 p-0 m-0">
+          <div class="col-xl-3 col-lg-4 col-sm-7 p-0">
+            <span class="main-des">
+              <span class="mx-2"><img  class="clabs-brand-img" src="./images/nike.png" alt="" /></span>
+              <span class="text-white font-weight-bold clabs-brand-name ">Foot Locker </span> <span>Key</span>
+            </span>
+            <ul class="list-unstyled ml-2 mb-0 url-info">
+              <li class="mt-2 link-desc">URL</li>
+              <li class="mt-2">
+                <a href="" class="link-color">N/A</a>
+              </li>
+              <li class="mt-2 link-desc">API Key</li>
+              <li class="mt-2">
+                <span class="link-color">N/A</span>
+                <a href="./help.html" class="link-color mx-1"
+                  ><i class="far fa-question-circle help-btn"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- col-xl-3-->
+          <div class="col-xl-4 col-lg-3 col-sm-5 pgs-bar">
+            <h6 class="link-desc text-center h6-title mb-3">Requests</h6>
+            <h4 class="link-desc text-center pro-fonts">
+              N/A
+            </h4>
+            <!-- main progress circle-->
+          </div>
+          <!-- col-xl-6-->
+        </div>
+        <!-- Row -->
+      </div>
+    </div>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/dashboard_page.js"></script>
+  </body>
+</html>
